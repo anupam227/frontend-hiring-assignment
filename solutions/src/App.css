@@ -1,0 +1,19 @@
+.App{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    padding: 28px 72px;
+    gap: 40px;
+}
+
+.tab .tab-heading{
+    font-size: 32px;
+    line-height: 36px;
+    color: #a4b8d3;
+}
+.tab .active{
+    color: #004fb4;
+}

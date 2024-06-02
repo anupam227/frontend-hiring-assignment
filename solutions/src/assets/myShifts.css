@@ -1,0 +1,85 @@
+.container{
+    background-color: whitesmoke;
+}
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 8px;
+}
+.card .head{
+    padding: 16px 24px;
+    background-color: #F6F8FB;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.head .headDate{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+.head .supportText{
+    font-size: 16px;
+        line-height: 18px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.2;
+}
+.card .listWrapper{
+    padding: 16px 24px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listWrapper .leftSection{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    flex-direction: column;
+}
+.leftSection .time{
+    font-size: 22px;
+        line-height: 26px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.6;
+}
+.leftSection .city{
+    font-size: 18px;
+        line-height: 18px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.3;
+}
+.listWrapper .button{
+    color: red;
+    border: 1px solid red;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 18px;
+    width: 130px;
+    line-height: 26px;
+    font-weight: 700;
+    opacity: 0.6;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listWrapper .disable-r{
+    color: #fe93b3;
+        border: 1px solid #fe93b3;
+}
+.button img{
+    width: 24px;
+    height: 24px;
+}
